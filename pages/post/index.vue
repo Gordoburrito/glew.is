@@ -22,15 +22,16 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageBody>
-      <PageSection class="flex-col flex items-center lg:mb-20 md:mb-14 sm:mb-8">
-        <h2 class="text-4xl">Gordon Lewis</h2>
+      <PageSection class="flex-col flex items-center lg:mb-16 md:mb-14 sm:mb-8">
+        <h2 class="text-4xl font-bold">Gordon Lewis</h2>
         <h3 class="text-2xl">Creative Developer</h3>
-        <p class="text-lg text-center pt-8">
+        <p class="text-xl text-center pt-8">
           Working towards a more humane represantation of thought.
         </p>
+        <Socials/>
       </PageSection>
       <ContentList v-slot="{ list }">
-        <div class="lg:columns-3 md:columns-2 lg:px-8 px-4">
+        <div class="lg:columns-3 md:columns-2 lg:px-8 px-4 gap-1.5rem">
           <PageSection
             v-for="article in list"
             :key="article._path"
@@ -41,7 +42,7 @@ useHead(() => ({
               class="flex self-center items-center text-slate-50 hover:no-underline hover:text-white group"
             >
               <Card
-                :class="`bg-red-700 group-hover:to-blue-700 flex ${article.class}`"
+                :class="`bg-blue-700 group-hover:to-blue-700 flex ${article.class}`"
               >
                 <CardContent>
                   <p class="mb-6 uppercase tracking-widest">

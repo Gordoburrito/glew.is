@@ -27,7 +27,7 @@ export default defineNuxtConfig({
           content: 'Nuxt 3 Awesome Starter',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}, { rel: 'stylesheet', href: 'https://use.typekit.net/myh6yxk.css' }]
     },
   },
 
