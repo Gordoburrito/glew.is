@@ -41,7 +41,7 @@ useHead(() => ({
               class="flex self-center items-center text-slate-50 hover:no-underline hover:text-white group"
             >
               <Card
-                :class="`bg-gradient-to-r from-cyan-800 to-blue-800 group-hover:to-blue-700 flex ${article.class}`"
+                :class="`bg-red-700 group-hover:to-blue-700 flex ${article.class}`"
               >
                 <CardContent>
                   <p class="mb-6 uppercase tracking-widest">

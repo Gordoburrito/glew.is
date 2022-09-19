@@ -57,6 +57,7 @@ const menus = computed((): IMenuItem[] => [
           >
             <IconMdi:github-face />
           </Anchor>
+          <ThemeSwitcher type="select-box" />
         </div>
       </div>
     </template>
