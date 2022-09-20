@@ -1,7 +1,12 @@
 ---
 title: 'Portfolio'
 subtitle: 'Nuxt3'
-description: 'How this portfolio is made'
+description: 'How this portfolio was made'
+backgroundImage: ''
 ---
 
-CONTENT_BODY
+This portfolio was made using: 
+- Nuxt3
+- ContentV2
+- Tailwind css
+- windiCSS

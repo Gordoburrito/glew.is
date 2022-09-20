@@ -1,7 +1,8 @@
 ---
 title: 'Canals experiment'
 subtitle: 'webGL'
-description: 'Dope shit'
+description: 'Exploring what webGL can do'
+backgroundImage: ''
 ---
 
-CONTENT_BODY
+Project coming soon

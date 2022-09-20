@@ -11,7 +11,7 @@
       href="https://github.com/Gordoburrito"
       title="Github"
     >
-      <IconMdi:github-face />
+      <IconMdi:github />
     </Anchor>
     <Anchor
       class="

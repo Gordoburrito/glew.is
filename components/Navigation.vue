@@ -11,8 +11,9 @@ export interface IMenuItem {
 const { t } = useLang()
 const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
-  { type: 'link', text: 'work', route: { name: 'post' }, logo: true },
+  { type: 'link', text: 'work', route: { name: 'post' } },
   { type: 'link', text: 'about', route: { name: 'about' } },
+  // { type: 'link', text: 'resumé', route: { name: 'settings' } },
   // { type: 'link', text: t('pages.blank.nav'), route: { name: 'blank' } },
   // { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
   // { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
@@ -25,16 +26,15 @@ const menus = computed((): IMenuItem[] => [
       relative
       flex
       justify-center
-      border border-gray-900/10
-      dark:border-gray-50/[0.2]
-      p-2
+      pt-6
+      pb-2
     "
   >
     <nav
       class="text leading-6 text-gray-600 dark:text-gray-300"
       role="navigation"
     >
-      <ul class="flex items-center space-x-8">
+      <ul class="flex gap-4 rounded-full px-3 shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur  dark:text-zinc-200 dark:ring-white/10 transition">
         <li v-for="(item, i) in menus" :key="i">
           <Anchor
             v-if="item.type === 'link'"
@@ -44,21 +44,11 @@ const menus = computed((): IMenuItem[] => [
               hover:no-underline hover:text-slate-900 hover:dark:text-white
               capitalize
               flex
-              gap-2
+              px-3 py-2
+              transition
             "
           >
-            <div
-              v-if="item.logo"
-              class="
-                hover:no-underline hover:text-slate-900 hover:dark:text-white
-                flex
-                self-center
-                items-center
-              "
-            >
-              <IconMdi:github-face />
-            </div>
-            {{ item.text }}
+          {{ item.text }}
           </Anchor>
         </li>
       </ul>

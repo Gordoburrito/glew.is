@@ -22,11 +22,11 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageBody>
-      <PageSection class="flex-col flex items-center lg:mb-16 md:mb-14 sm:mb-8">
+      <PageSection class="flex-col flex items-center lg:mb-14 md:mb-14 sm:mb-8">
         <h2 class="text-4xl font-bold">Gordon Lewis</h2>
         <h3 class="text-2xl">Creative Developer</h3>
         <p class="text-xl text-center pt-8">
-          Working towards a more humane represantation of thought.
+          Crafting human computer interaction tools
         </p>
         <Socials/>
       </PageSection>
