@@ -26,7 +26,7 @@
     >
       <IconMdi:linkedin />
     </Anchor>
-    <Anchor
+    <!-- <Anchor
     class="
         hover:no-underline hover:text-slate-900 hover:dark:text-white
         text-3xl
@@ -38,6 +38,6 @@
       href="https://github.com/viandwi24/nuxt3-awesome-starter"
     >
       <IconMdi:email />
-    </Anchor>
+    </Anchor> -->
   </div>
 </template>

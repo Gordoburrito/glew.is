@@ -17,13 +17,7 @@ declare module '@vue/runtime-core' {
     'IconMdi:checkCircle': typeof import('~icons/mdi/check-circle')['default']
     'IconMdi:email': typeof import('~icons/mdi/email')['default']
     'IconMdi:github': typeof import('~icons/mdi/github')['default']
-    'IconMdi:githubFace': typeof import('~icons/mdi/github-face')['default']
     'IconMdi:linkedin': typeof import('~icons/mdi/linkedin')['default']
-    IconUil: sun': typeof import('~icons/uil/sun')['default']
-    'IconUil:clock': typeof import('~icons/uil/clock')['default']
-    'IconUil:laptop': typeof import('~icons/uil/laptop')['default']
-    'IconUil:moon': typeof import('~icons/uil/moon')['default']
-    'IconUil:sun': typeof import('~icons/uil/sun')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
